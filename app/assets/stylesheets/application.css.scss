@@ -139,7 +139,8 @@
 //= require ./objects/_objects.media
 // @import "objects/objects.flag";
 //= require ./objects/_objects.flag
-@import "objects/objects.list-bare";
+// @import "objects/objects.list-bare";
+//= require ./objects/_objects.list-bare
 @import "objects/objects.list-inline";
 @import "objects/objects.box";
 @import "objects/objects.block";
