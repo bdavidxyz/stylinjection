@@ -50,7 +50,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-# Actual attempt to get SCSS done correctly
+# MYCONF Actual attempt to get SCSS done correctly
 group :development do
   gem "guard", ">= 2.2.2", :require => false
   gem "guard-livereload",  :require => false
