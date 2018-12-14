@@ -11,6 +11,9 @@
  *
  */
 
+@import "../tools/tools.font-size";
+@import "../elements/elements.headings";
+
 .u-h1 {
   @include inuit-font-size($inuit-font-size-h1, $important: true);
 }

@@ -7,7 +7,8 @@
  */
 
 @import "../tools/tools.clearfix";
-
+@import "../settings/settings.core";
+  
 $inuit-wrapper-width: 1200px !default;
 
 @if (type-of($inuit-wrapper-width) != number) {

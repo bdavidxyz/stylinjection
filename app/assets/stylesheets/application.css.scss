@@ -117,7 +117,8 @@
 // ELEMENTS
 // @import "elements/elements.page";
 //= require ./elements/_elements.page
-@import "elements/elements.headings";
+// @import "elements/elements.headings";
+//= require ./elements/_elements.headings
 @import "elements/elements.images";
 @import "elements/elements.tables";
 
