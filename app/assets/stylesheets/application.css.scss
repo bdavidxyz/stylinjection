@@ -137,7 +137,8 @@
 //= require ./objects/_objects.layout
 // @import "objects/objects.media";
 //= require ./objects/_objects.media
-@import "objects/objects.flag";
+// @import "objects/objects.flag";
+//= require ./objects/_objects.flag
 @import "objects/objects.list-bare";
 @import "objects/objects.list-inline";
 @import "objects/objects.box";

@@ -9,6 +9,9 @@
  * 1. So we can apply the `.o-box` class to naturally-inline elements.
  */
 
+@import "../tools/tools.clearfix";
+@import "../settings/settings.core";
+
 .o-box {
   @include inuit-clearfix();
   display: block; /* [1] */
