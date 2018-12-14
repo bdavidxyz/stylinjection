@@ -23,6 +23,9 @@
 //   // subtract 1 line:
 //   @include inuit-font-size(24px, $modifier: -1);
 
+@import "../settings/settings.core";
+
+
 @mixin inuit-font-size($font-size, $line-height: auto, $modifier: 0, $important: false) {
 
   @if (type-of($font-size) == number) {
