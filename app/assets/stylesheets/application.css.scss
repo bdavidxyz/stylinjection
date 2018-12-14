@@ -145,7 +145,8 @@
 //= require ./objects/_objects.list-inline
 // @import "objects/objects.box";
 //= require ./objects/_objects.box
-@import "objects/objects.block";
+// @import "objects/objects.block";
+//= require ./objects/_objects.block
 @import "objects/objects.ratio";
 @import "objects/objects.crop";
 @import "objects/objects.table";

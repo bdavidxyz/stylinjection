@@ -6,6 +6,10 @@
  * A simple object for manipulating the structure of HTML `table`s.
  */
 
+@import "../settings/settings.core";
+@import "../tools/tools.clearfix";
+
+
 .o-table {
   width: 100%;
 }
