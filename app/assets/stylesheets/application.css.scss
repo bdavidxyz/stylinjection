@@ -182,5 +182,6 @@
 //= require ./utilities/_utilities.spacings
 // @import "utilities/utilities.responsive-spacings";
 //= require ./utilities/_utilities.responsive-spacings
-@import "utilities/utilities.print";
+// @import "utilities/utilities.print";
+//= require ./utilities/_utilities.print
 @import "utilities/utilities.hide";
