@@ -76,10 +76,7 @@
 
 // SETTINGS
 //= require ./settings/_example.settings.config
-// @import "settings/example.settings.config";
 //= require ./settings/_settings.core
-// @import "settings/settings.core";
-// @import "settings/example.settings.global";
 //= require ./settings/_example.settings.global
 
 
@@ -87,13 +84,9 @@
 
 
 // TOOLS
-// @import "tools/tools.font-size";
 //= require ./tools/_tools.font-size
-// @import "tools/tools.clearfix";
 //= require ./tools/_tools.clearfix
-// @import "tools/tools.hidden";
 //= require ./tools/_tools.hidden
-// @import "sass-mq/mq";
 //= require ./sass-mq/_mq
 
 
@@ -101,13 +94,9 @@
 
 
 // GENERIC
-// @import "generic/generic.box-sizing";
 //= require ./generic/_generic.box-sizing
-// @import "generic/generic.normalize";
 //= require ./generic/_generic.normalize
-// @import "generic/generic.reset";
 //= require ./generic/_generic.reset
-// @import "generic/generic.shared";
 //= require ./generic/_generic.shared
 
 
@@ -115,13 +104,9 @@
 
 
 // ELEMENTS
-// @import "elements/elements.page";
 //= require ./elements/_elements.page
-// @import "elements/elements.headings";
 //= require ./elements/_elements.headings
-// @import "elements/elements.images";
 //= require ./elements/_elements.images
-// @import "elements/elements.tables";
 //= require ./elements/_elements.tables
 
 
@@ -131,29 +116,17 @@
 // OBJECTS
 //
 // Uncomment and add to this section as necessary.
-// @import "objects/objects.wrapper";
 //= require ./objects/_objects.wrapper
-// @import "objects/objects.layout";
 //= require ./objects/_objects.layout
-// @import "objects/objects.media";
 //= require ./objects/_objects.media
-// @import "objects/objects.flag";
 //= require ./objects/_objects.flag
-// @import "objects/objects.list-bare";
 //= require ./objects/_objects.list-bare
-// @import "objects/objects.list-inline";
 //= require ./objects/_objects.list-inline
-// @import "objects/objects.box";
 //= require ./objects/_objects.box
-// @import "objects/objects.block";
 //= require ./objects/_objects.block
-// @import "objects/objects.ratio";
 //= require ./objects/_objects.ratio
-// @import "objects/objects.crop";
 //= require ./objects/_objects.crop
-// @import "objects/objects.table";
 //= require ./objects/_objects.table
-// @import "objects/objects.pack";
 //= require ./objects/_objects.pack
 
 
@@ -163,7 +136,6 @@
 // COMPONENTS
 //
 // Build and include your project’s UI components here.
-// @import "components/example.components.buttons";
 //= require ./components/_example.components.buttons
 
 
@@ -171,18 +143,11 @@
 
 
 // UTILITIES
-// @import "utilities/utilities.clearfix";
 //= require ./utilities/_utilities.clearfix
 
-// @import "utilities/utilities.widths";
 //= require ./utilities/_utilities.widths
-// @import "utilities/utilities.headings";
 //= require ./utilities/_utilities.headings
-// @import "utilities/utilities.spacings";
 //= require ./utilities/_utilities.spacings
-// @import "utilities/utilities.responsive-spacings";
 //= require ./utilities/_utilities.responsive-spacings
-// @import "utilities/utilities.print";
 //= require ./utilities/_utilities.print
-@import "utilities/utilities.hide";
 //= require ./utilities/_utilities.hide
