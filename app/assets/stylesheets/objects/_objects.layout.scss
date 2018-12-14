@@ -50,6 +50,8 @@
  * There are plenty more options available to us: explore them below.
  */
 
+@import "../settings/settings.core";
+
 // By default we use the `font-size: 0;` trick to remove whitespace between
 // items. Set this to true in order to use a markup-based strategy like
 // commenting out whitespace or minifying HTML.
