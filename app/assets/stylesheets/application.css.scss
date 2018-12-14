@@ -89,7 +89,8 @@
 // TOOLS
 // @import "tools/tools.font-size";
 //= require ./tools/_tools.font-size
-@import "tools/tools.clearfix";
+// @import "tools/tools.clearfix";
+//= require ./tools/_tools.clearfix
 @import "tools/tools.hidden";
 @import "sass-mq/mq";
 

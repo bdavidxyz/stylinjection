@@ -6,6 +6,8 @@
  * Page-level constraining and wrapping elements.
  */
 
+ @import "../tools/tools.clearfix";
+
 $inuit-wrapper-width: 1200px !default;
 
 @if (type-of($inuit-wrapper-width) != number) {
