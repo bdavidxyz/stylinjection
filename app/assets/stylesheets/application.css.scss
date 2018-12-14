@@ -174,12 +174,10 @@
 // @import "utilities/utilities.clearfix";
 //= require ./utilities/_utilities.clearfix
 
-// Be aware that enabling offsets produces a large chunk of classes which might
-// bloat your CSS, depending on the amount of breakpoints you defined.
-// Only set this to `true` if you are absolutely sure about what you are doing.
-$inuit-offsets: true;
-@import "utilities/utilities.widths";
-@import "utilities/utilities.headings";
+// @import "utilities/utilities.widths";
+//= require ./utilities/_utilities.widths
+// @import "utilities/utilities.headings";
+//= require ./utilities/_utilities.headings
 @import "utilities/utilities.spacings";
 @import "utilities/utilities.responsive-spacings";
 @import "utilities/utilities.print";
