@@ -178,7 +178,9 @@
 //= require ./utilities/_utilities.widths
 // @import "utilities/utilities.headings";
 //= require ./utilities/_utilities.headings
-@import "utilities/utilities.spacings";
-@import "utilities/utilities.responsive-spacings";
+// @import "utilities/utilities.spacings";
+//= require ./utilities/_utilities.spacings
+// @import "utilities/utilities.responsive-spacings";
+//= require ./utilities/_utilities.responsive-spacings
 @import "utilities/utilities.print";
 @import "utilities/utilities.hide";
