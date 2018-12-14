@@ -75,16 +75,20 @@
  */
 
 // SETTINGS
-@import "settings/example.settings.config";
-@import "settings/settings.core";
-@import "settings/example.settings.global";
+//= require ./settings/_example.settings.config
+// @import "settings/example.settings.config";
+//= require ./settings/_settings.core
+// @import "settings/settings.core";
+// @import "settings/example.settings.global";
+//= require ./settings/_example.settings.global
 
 
 
 
 
 // TOOLS
-@import "tools/tools.font-size";
+// @import "tools/tools.font-size";
+//= require ./tools/_tools.font-size
 @import "tools/tools.clearfix";
 @import "tools/tools.hidden";
 @import "sass-mq/mq";

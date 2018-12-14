@@ -16,6 +16,8 @@
  * 5. Force all button-styled elements to appear clickable.
  */
 
+@import "../settings/example.settings.global";
+
 .c-btn {
   display: inline-block; /* [1] */
   vertical-align: middle; /* [2] */
