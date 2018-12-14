@@ -101,7 +101,8 @@
 
 
 // GENERIC
-@import "generic/generic.box-sizing";
+// @import "generic/generic.box-sizing";
+//= require ./generic/_generic.box-sizing
 @import "generic/generic.normalize";
 @import "generic/generic.reset";
 @import "generic/generic.shared";
