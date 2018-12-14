@@ -6,6 +6,8 @@
  * Stacked image-with-text object. A simple abstraction to cover a very commonly
  * occurring design pattern.
  */
+@import "../settings/settings.core";
+@import "../tools/tools.clearfix";
 
 .o-block {
   display: block;
