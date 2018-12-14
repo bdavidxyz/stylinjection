@@ -149,7 +149,8 @@
 //= require ./objects/_objects.block
 // @import "objects/objects.ratio";
 //= require ./objects/_objects.ratio
-@import "objects/objects.crop";
+// @import "objects/objects.crop";
+//= require ./objects/_objects.crop
 @import "objects/objects.table";
 @import "objects/objects.pack";
 
