@@ -11,6 +11,10 @@
  * 3. Cause children to be automatically equally sized.
  */
 
+@import "../settings/settings.core";
+@import "../tools/tools.clearfix";
+
+
 .o-pack {
   width: 100%; /* [1] */
   margin-left: 0; /* [2] */

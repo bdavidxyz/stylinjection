@@ -6,6 +6,8 @@
  * Attach our clearfix mixin to a utility class.
  */
 
+@import "../tools/tools.clearfix";
+
 .u-clearfix {
   @include inuit-clearfix();
 }

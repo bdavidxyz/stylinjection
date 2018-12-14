@@ -17,6 +17,8 @@
  */
 
 @import "../settings/example.settings.global";
+@import "../settings/settings.core";
+@import "../tools/tools.clearfix";
 
 .c-btn {
   display: inline-block; /* [1] */

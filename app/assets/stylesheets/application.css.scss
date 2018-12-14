@@ -151,8 +151,10 @@
 //= require ./objects/_objects.ratio
 // @import "objects/objects.crop";
 //= require ./objects/_objects.crop
-@import "objects/objects.table";
-@import "objects/objects.pack";
+// @import "objects/objects.table";
+//= require ./objects/_objects.table
+// @import "objects/objects.pack";
+//= require ./objects/_objects.pack
 
 
 
@@ -161,7 +163,8 @@
 // COMPONENTS
 //
 // Build and include your project’s UI components here.
-@import "components/example.components.buttons";
+// @import "components/example.components.buttons";
+//= require ./components/_example.components.buttons
 
 
 
